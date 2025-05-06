@@ -43,7 +43,7 @@ const movies = [
   console.log(findRating);
   //Q3
    console.log("movie by Christopher Nolan");
-   let movieByCh = movies.filter((movie)=> movie.director == "Christopher Nolan")
+   let movieByCh = movies.filter((movie)=> movie.director.toLowerCase() == "christopher nolan")
    console.log(movieByCh);
    //Q4
    console.log("first movie before 2010");
