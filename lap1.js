@@ -1,7 +1,8 @@
 let book = {title: "Art Book", author: "Jane doe", year: 2015, isAvailable: true,
-     borrow : function borrowbook(){return book.isAvailable = false;}, 
+     borrow : function borrowbook(){console.log("the book is not available");
+        return book.isAvailable = false;}, 
      publisher: { name: "John doe", location: {city: "Paris", country: "france"}}} 
-     
+
    //Q1
     console.log(book);
     //Q2
